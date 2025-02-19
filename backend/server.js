@@ -2,7 +2,7 @@
 import express from 'express';
 
 const app = express()
-
+// initiate
 app.get("/", (req, res) => (
     res.send("Server is ready")
 ))
